@@ -45,7 +45,7 @@ public class AverageOfSubarrayOfSizeK {
 		double[] result = AverageOfSubarrayOfSizeK.findAverages(5, new int[] { 1, 3, 2, 6, -1, 4, 1, 8, 2 });
 		System.out.println("Averages of subarrays of size K: " + Arrays.toString(result));
 
-		// AvgSum with brute force - O(n*k) time complexity
+		// AvgSum with sliding window by removing first element and adding new element to last - O(n) time complexity
 		result = AverageOfSubarrayOfSizeK.findAveragesSlidWind(5, new int[] { 1, 3, 2, 6, -1, 4, 1, 8, 2 });
 		System.out
 				.println("Averages of subarrays of size K using sliding window technique: " + Arrays.toString(result));

@@ -1,7 +1,5 @@
 package drg.grokking.slidingwindow;
 
-import java.util.Arrays;
-
 public class MinSizeSubArraySum {
 
 	public static int findMinSubArray(int S, int[] arr) {

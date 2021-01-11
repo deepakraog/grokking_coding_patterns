@@ -4,6 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class MaxFruitCountOf2Types {
+
+    // Time Complexity O(n + n) ~ O(n)
+    // Space Complexity O(k)
     public static int findLength(char[] arr) {
         int windowStart = 0, maxLength = 0;
         Map<Character, Integer> fruitFrequencyMap = new HashMap<>();

@@ -12,3 +12,4 @@ MANIFEST.MF
 RemoteSystemsTempFiles
 bin
 /build/
+out
